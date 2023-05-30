@@ -1,0 +1,303 @@
+img{
+    width: 100%;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style-type: none;
+
+}
+a:link{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    background-color: white;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
+
+.home{
+    height: 100vh;
+    background-image: url(../img/business-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.home .content{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 300px;
+}
+.home .content h1{
+    font-size: 76px;
+    font-weight: 500;
+color: white;
+}
+.home .content p{
+    font-size: 22px;
+    padding: 25px  0;
+    line-height: 1.6;
+    color: white;
+}
+.home .content .btn{
+    padding: 20px 30px;
+    margin-right: 5px;
+    background-color: white;
+}
+.home .content .btn2{
+    background-color: #4274b7;
+    color: white;
+}
+
+
+.data{
+    padding: 70px 80px;
+}
+.data .item{
+    width:33.333%;
+    float: left;
+    padding: 20px 0;
+}
+.data h5{
+    font-size: 17px;
+    font-weight: 500;
+}
+.data p{
+    line-height: 1.8;
+    margin-top: 10px;
+    color: #888;
+}
+
+
+
+
+.about{
+    background-color: #f8f8f9;
+    padding: 65px;
+}
+.about .item{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.about .item2{
+    margin-top: 50px;
+}
+.about h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #303030;
+}
+.about p{
+    font-size: 16px;
+    color: #686868;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.about ul{
+    font-size: 15px;
+    color: #686868;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 2.5;
+}
+.about .btn{
+    background-color: #4274b7;
+    padding: 20px 28px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+.p-90 {
+    background-color: white;
+}
+.p-90 h3{
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+.p-90 p{
+    padding-bottom: 20px ;
+}
+.ourservice{
+    background-color: #f8f8f9;
+    padding: 90px 0;
+}
+.ourservice .container{
+    padding: 30px 0;
+    text-align: center;
+
+}
+.ourservice .item{
+width: 25%;
+float: left;
+
+}
+.ourservice .row1{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.ourservice h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #303030;
+    padding-bottom: 17px;
+}
+.ourservice .row1 p{
+font-size: 17px;
+color: #888888;
+}
+
+.ourservice h5{
+    font-size: 17px;
+    font-weight: 600;
+    color: #303030;
+}
+.ourservice .row2 p{
+    padding: 25px;
+    font-size: 15px;
+    color: #888888;
+}
+.ourservice .row3{
+    margin-top: 10px;
+}
+.ourservice .row3 p{
+    padding: 25px;
+}
+
+
+
+
+.comment{
+    height: 550px;
+    background-image:url(../img/business-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.comment .container{
+background-color: #4274b7;
+opacity: .8;
+width: 100%;
+height: 550px;
+overflow: auto;
+}
+.comment .item{
+  width: 70%;
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+}
+.comment p {
+    color: white;
+    font-size: 22.5px;
+    margin-bottom: 40px;
+    line-height: 1.86em;
+}
+.comment h5{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.comment h6{
+    color: #fff;
+    opacity: .7;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.comment .btn{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+
+
+
+.logos{
+    padding: 30px 0;
+}
+.logos .item{
+    width: 20%;
+    float: left;
+    padding: 45px;
+}
+
+
+
+.work{
+   background-color: #f8f8f9;
+        padding: 100PX 0;
+}
+.work .container{
+    width: 35%;
+}
+.work .item{
+    width: 100%;
+    text-align: center;
+}
+.work h2{
+    font-size: 36px ;
+    font-weight: 500;
+    color: #303030;
+}
+.work p{
+    color: #00000080;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.work .btn{
+    background-color: #4274b7;
+    padding: 20px 28px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: #162231;
+    padding: 40px;
+}
+.footer .item{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.footer h4{
+    color: white;
+    margin-bottom: 25px;
+}
+.footer li, p, a{
+    color: #58606b;
+    line-height: 1.8;
+}
+.footer2{
+background-color: #121b25;
+    padding: 20px 0;
+    color: #58606b;
+}
+.footer2 p{
+    font-size: 15px;
+    margin-left: 4%;
+}
